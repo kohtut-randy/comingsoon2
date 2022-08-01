@@ -1,0 +1,156 @@
+@import url(./reset.css);
+body{
+    width: 100vw;
+    overflow-x: hidden;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    /* padding-top: 2rem; */
+    margin-top: 100px;
+}
+.logo{
+    width: 136px;
+}
+h1{
+    font-size: 48px;
+    font-weight: 200;
+}
+p{
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+}
+.bg-img{
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+.digit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    gap: 3rem;
+}
+.digit h4{
+    font-size: 96px;
+    font-weight: 400;
+}
+.digit h6{
+    font-size: 72px;
+    font-weight: 400;
+}
+.digit :nth-child(2){
+    color: #FFC83E;
+}
+.digit :nth-child(4){
+    color: #FD4C5C;
+}
+.digit :nth-child(6){
+    color: #00BB98;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    gap: 2rem;
+}
+.social img{
+    width: 40px;
+    height: 40px;
+}
+.e-16{
+    position: absolute;
+    right: 0px;
+    top: 6rem;
+    width: 80px;
+    height: 170px;
+}
+.e-17{
+    position: absolute;
+    left: 0px;
+    top: 10rem;
+    width: 45px;
+    height: 100px;
+}
+.e-18{
+    position: absolute;
+    left: 80px;
+    top: 2rem;
+}
+.e-19{
+    position: absolute;
+    right: 100px;
+    top: 600px;
+}
+@media(min-width:0px) and (max-width:480px){
+    body{
+        font-size: 12px;
+    }
+    .container{
+        background: linear-gradient(90.28deg, #001C80 0.26%, #153ABF 30.33%, #2B59FF 99.79%);
+        gap: 4rem;
+    }
+    .logo{
+        width: 8rem;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    p{
+        line-height: 2rem;
+    }
+    .bg-img{
+       display: none;
+    }
+    .digit{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .digit h4{
+        font-size: 6rem;
+    }
+    .digit h6{
+        transform: rotate(90deg);
+    }
+    .social{
+        gap:3rem ;
+    }
+    .e-16{
+        position: absolute;
+        right: 0px;
+        top: 6rem;
+        width: 40px;
+        height: 100px;
+    }
+    .e-17{
+        position: absolute;
+        left: 0px;
+        top: 900px;
+        width: 45px;
+        height: 100px;
+    }
+    .e-18{
+        position: absolute;
+        left: 80px;
+        top: 2rem;
+    }
+    .e-19{
+        position: absolute;
+        right: 50px;
+        top:1300px;
+    }
+}
