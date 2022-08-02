@@ -3,7 +3,7 @@ body{
     width: 100vw;
     overflow-x: hidden;
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'HK Grotesk';
     color: white;
 }
 .container{
@@ -12,7 +12,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 3rem;
+    gap: 4rem;
     /* padding-top: 2rem; */
     margin-top: 100px;
 }
@@ -27,12 +27,14 @@ p{
     font-size: 16px;
     font-weight: 200;
     text-align: center;
+    color: #FFFFFF;
+    opacity: 0.9;
 }
 .bg-img{
     position: absolute;
     top: 0px;
     width: 100vw;
-    height: 100vh;
+    height: 99vh;
     z-index: -1;
 }
 .digit{
